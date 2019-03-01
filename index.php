@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-this is another change
   <head>
 
     <meta charset="utf-8">
@@ -50,7 +49,7 @@ this is another change
           </div>
       
       <div >
-        <img id="main-banner" src="img/banner.png" alt="Web mama">
+        <img id="main-banner" src="img/header.png" alt="Web mama">
     </div>
      
     <div class="container-fluid">
@@ -72,41 +71,36 @@ this is another change
                     manera personalizada, y considerando A CADA CLIENTE, UN RETO.</p>
                 </div>
         </div>
-        
+         
        
     </div>
-      
-    <!-- Footer -->
-    <footer class="bg-dark">
-      <div class="container">
-        <div class="wrapper">
-            <ul>
-                <li>Pilar</li>
-                <li>Blog</li>
-                <li>Contacto</li>
-            </ul>
-            <ul>
-                <li>Áreas</li>
-                <li>Accidentes</li>
-                <li>Despidos</li>
-                <li>Seguridad Social</li>
-                <li>Bancos</li>
-            </ul>
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-            <ul>
-                <li>abogadapilarramos@gmail.com</li>
-                <li>662 68 27 70</li>
-                <li>925 11 88 88</li>
-            </ul>
-        </div>
-        </div>
-    </footer>
-
+    
+   <h2 style="text-align: center; color: red; margin-bottom: 60px;">Despacho de Abogados</h2>
+<div class="container-fluid">
+  <div style="margin-bottom: 60px;" class="row">
+    <div style=" border-right: 2px solid black;" class="col-4">
+        <img style="display: block; margin: auto; height: 40%; margin-bottom: 20px;" src="img/accident.png">
+        <h6 style="text-align: center; font-weight: bold; margin-bottom: 20px;">ACCIDENTES</h6>
+        <p style="padding-left: 40px; padding-right: 40px;">Defendemos tus derechos y peleamos tu
+indemnización.
+Sólo cobramos, si tú cobras.</p>
+      </div>
+    <div class="col-4">
+        <img style="display: block; margin: auto; height: 40%; margin-bottom: 20px;" src="img/despidos.png">
+        <h6 style="text-align: center; font-weight: bold; margin-bottom: 20px;">DESPIDOS</h6>
+        <p style="padding-left: 40px; padding-right: 40px;">Defendemos todo tipo de despidos.</p>
+      </div>
+    <div style=" border-left: 2px solid black;" class="col-4">
+        <img style="display: block; margin: auto; height: 40%; margin-bottom: 20px;" src="img/social.png">
+        <h6 style="text-align: center; font-weight: bold; margin-bottom: 20px;">SEGURIDAD SOCIAL</h6>
+        <p style="padding-left: 40px; padding-right: 40px;">Tramitamos tu incapacidad en todas
+las instancias.</p>
+      </div>
+  </div>
+</div>
+     
+<?php include 'footer.php';?>
+    
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
